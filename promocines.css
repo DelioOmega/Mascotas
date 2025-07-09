@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f1f9f6; /* fondo suave */
+}
+
+header {
+  background: #2a5d6b; /* verde oscuro profesional */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+nav {
+  background-color: #4b9c8e; /* verde medio */
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 22px;
+  text-align: center;
+}
+
+.logo span {
+  color: #f9a826; /* naranja suave */
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+}
+
+.mascotas-iconos img {
+  width: 60px;
+  margin: 0 5px;
+}
+
+.titulo {
+  font-size: 24px;
+  margin: 0;
+}
+
+.titulo span {
+  color: #f9a826; /* igual al logo */
+}
+
+.contenedor-principal {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+}
+
+.descripcion {
+  flex: 1 1 200px;
+  max-width: 220px;
+  background-color: #d8f3dc; /* verde pastel */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.promociones {
+  flex: 2 1 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tarjeta {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.tarjeta img {
+  width: 220px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.tarjeta button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #f9a826; /* naranja principal */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tarjeta button:hover {
+  background-color: #e3941f;
+}
+
+.tarjeta .antes {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+
+.testimonios {
+  flex: 1 1 200px;
+  max-width: 220px;
+  background-color: #b7e4c7; /* verde pastel claro */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.testimonios blockquote {
+  font-style: italic;
+  font-size: 14px;
+  margin: 0;
+}
+
+.testimonios cite {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2a5d6b;
+}
+
+footer {
+  background-color: #2a5d6b;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+.mascotas-iconos img {
+  width: 60px;
+  margin: 0 5px;
+}
